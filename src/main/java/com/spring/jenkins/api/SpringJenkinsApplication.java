@@ -21,6 +21,7 @@ public class SpringJenkinsApplication {
 	
 	public static void main(String[] args) {
 		logger.info("Application Excuted....");
+		logger.info("Application Excuted biuld start....");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
